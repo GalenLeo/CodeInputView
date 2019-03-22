@@ -36,7 +36,7 @@ apply plugin: 'com.novoda.bintray-release'
 publish {
     repoName = 'maven'
     userOrg = 'galenleo-android'
-    groupId = 'com.galeoleo.widgets'
+    groupId = 'com.galenleo.widgets'
     artifactId = 'code-input-view'
     publishVersion = '1.0.0'
     desc = 'custom code input view for android'
