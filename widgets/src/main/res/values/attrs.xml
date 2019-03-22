@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CodeInputView">
+        <attr format="integer" name="ciItemCount"/>
+        <attr format="dimension" name="ciItemWidth"/>
+        <attr format="reference" name="ciItemBackground"/>
+        <attr format="dimension" name="ciGapWidth"/>
+        <attr format="dimension" name="ciTextSize"/>
+        <attr format="color|reference" name="ciTextColor"/>
+
+        <attr format="boolean" name="ciSoftInputEnable"/>
+
+        <attr name="ciInputType">
+            <enum name="number" value="0"/>
+            <enum name="text" value="1"/>
+            <enum name="textCapCharacters" value="2"/>
+            <enum name="password" value="3"/>
+            <enum name="numberPassword" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>
