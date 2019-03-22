@@ -1,4 +1,4 @@
-package com.galenleo.widgets;
+package com.galenleo.demo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
