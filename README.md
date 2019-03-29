@@ -9,7 +9,9 @@
 
 2. 支持使用自定义键盘
 
-![Demo效果图](https://github.com/GalenLeo/CodeInputView/blob/master/gif/demo.gif)
+<div>
+  <img src="https://github.com/GalenLeo/CodeInputView/blob/master/gif/demo.gif" alt="Demo效果图" height="700dp">
+</div>
 
 ## Usage如何使用
 
