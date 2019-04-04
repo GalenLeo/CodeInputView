@@ -6,8 +6,8 @@
 ## Futures特性
 
 1. 支持纯数字/字母/自动大写/密码/纯数字密码 输入
-
-2. 支持使用自定义键盘
+2. 支持自定义背景
+3. 支持使用自定义键盘
 
 <div>
   <img src="https://github.com/GalenLeo/CodeInputView/blob/master/gif/demo.gif" alt="Demo效果图" height="700dp">
@@ -37,6 +37,28 @@
         app:ciItemCount="6"
         app:ciItemBackground="@drawable/selector_code_input_item"/>
 
+### Step 3
+
+**Custom Drawable 自定义背景图片**
+
+selector_code_input_item.xml
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_focused="true">
+            <shape>
+                <solid android:color="#42362F"/>
+                <corners android:radius="4dp"/>
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <solid android:color="#2D2D35"/>
+                <corners android:radius="4dp"/>
+            </shape>
+        </item>
+    </selector>
+    
 ## Attributes属性
 
 attr|default|description
